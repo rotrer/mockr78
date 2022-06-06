@@ -1,0 +1,65 @@
+{
+  "contedalle": {
+    "patente": "CSPB64",
+    "fechas": [{
+        "fecha": "05-10-2019",
+        "tarifa": 6250,
+        "totalTransitos": 2,
+        "transitos": [{
+            "fechaHora": "05-10-2019T11:29:39",
+            "direccion": "Sur - Norte",
+            "tarifa": 3125
+          },
+          {
+            "fechaHora": "05-10-2019T19:08:56",
+            "direccion": "Norte - Sur",
+            "tarifa": 3125
+          }
+        ]
+      },
+      {
+        "fecha": "10-10-2019",
+        "tarifa": 3125,
+        "totalTransitos": 1,
+        "transitos": [{
+          "fechaHora": "10-10-2019T10:05:00",
+          "direccion": "Norte - Sur",
+          "tarifa": 3125
+        }]
+      }
+    ]
+  },
+  "agrupado": {
+    "patente": "CSPB64",
+    "fechas": [{
+        "fecha": "05-10-2019",
+        "tarifa": 6250,
+        "totalTransitos": 2
+      },
+      {
+        "fecha": "10-10-2019",
+        "tarifa": 3125,
+        "totalTransitos": 1
+      }
+    ]
+  },
+  "soloundia": {
+    "patente": "CSPB64",
+    "fechas": [{
+      "fecha": "05-10-2019",
+      "tarifa": 6250,
+      "totalTransitos": 2,
+      "transitos": [{
+          "fechaHora": "05-10-2019T11:29:39",
+          "direccion": "Sur - Norte",
+          "tarifa": 3125
+        },
+        {
+          "fechaHora": "05-10-2019T19:08:56",
+          "direccion": "Norte - Sur",
+          "tarifa": 3125
+        }
+      ]
+    }]
+  }
+}
